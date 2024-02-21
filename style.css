@@ -1,4 +1,5 @@
 :root {
+  --color-blue: rgb(2 6 23);
   --color-bg: #f0f0f0;
   --color-purple: #864cff;
   --color-light-gray: #dbdbdbff;
@@ -51,17 +52,12 @@
 .card__inputContainer {
   flex: 1;
 }
-/* #Age-form {
-  display: flex;
-  flex-direction: row;
-  gap: 15px;
-} */
 .card__label {
   display: block;
   font-weight: var(--font-weight-bold);
   font-size: 12px;
   letter-spacing: 3px;
-  color: var(--color-gray);
+  color: var(--color-blue);
   margin-bottom: 5px;
 }
 .card__input {
@@ -75,7 +71,7 @@
   transition: all 0.3s;
 }
 .card__input:focus {
-  border-color: rgb(2 6 23);
+  border-color: var(--color-blue);
 }
 .card__input--error {
   border-color: var(--color-red);
@@ -106,7 +102,7 @@
   position: absolute;
   width: 100%;
   height: 1px;
-  background: rgb(2 6 23);
+  background: var(--color-blue);
 }
 .card__button {
   padding: 10px 20px;
